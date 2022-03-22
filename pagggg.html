@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Evento onload</title>
+<script type="text/javascript">
+    
+    function inicializar(){
+        var i=document.getElementById('i1');
+        i.ondblclick =function () { i.src='charger.jpg'};
+        i.onclick    =function () { i.src='charger2.jpg'};
+    }
+
+</script>
+    </head>
+    <body onload="inicializar()">
+        <h4> EVENTO onload</h4>
+        <img name="img" src="charger.jpg" id="i1"/>
+
+        <a href="index1.html">pagina inicial</a>
+        <a href="pagg.html">pagina 2</a>
+        <a href="paggg.html">pagina 3</a>
+        <a href="pagi.html">pagina 5</a>
+        <a href="pagii.html">pagina 6</a>
+        
+    </body>
+</html>
